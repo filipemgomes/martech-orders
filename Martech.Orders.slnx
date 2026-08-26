@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Martech.Orders.Domain/Martech.Orders.Domain.csproj" />
+    <Project Path="src/Martech.Orders.Application/Martech.Orders.Application.csproj" />
+    <Project Path="src/Martech.Orders.Infrastructure/Martech.Orders.Infrastructure.csproj" />
+    <Project Path="src/Martech.Orders.Api/Martech.Orders.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Martech.Orders.UnitTests/Martech.Orders.UnitTests.csproj" />
+    <Project Path="tests/Martech.Orders.IntegrationTests/Martech.Orders.IntegrationTests.csproj" />
+  </Folder>
+</Solution>

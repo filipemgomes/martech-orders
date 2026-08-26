@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: src/Martech.Orders.Api/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__Default=Data Source=/app/data/martech-orders.db
+    volumes:
+      - martech-orders-data:/app/data
+
+volumes:
+  martech-orders-data:
